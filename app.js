@@ -49,7 +49,7 @@ const planets = [
     },
     {
       id: 5,
-      img: "../public/img/jupiter.png",
+      img: "./public/img/jupiter.png",
       name: "JUPITER",
       description:
         "Júpiter es el planeta con mayor masa del sistema solar: equivale a unas 2,48 veces la suma de las masas de todos los demás planetas juntos. A pesar de ello, no es el planeta más masivo que se conoce: más de un centenar de planetas extrasolares que han sido descubiertos tienen masas similares o superiores a la de Júpiter.",
