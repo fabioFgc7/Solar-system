@@ -1,7 +1,7 @@
 const planets = [
     {
       id: 1,
-      img: "/public/img/mercury.jpg",
+      img: "./public/img/mercury.jpg",
       name: "MERCURY",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis similique! Reprehenderit!",
@@ -13,7 +13,7 @@ const planets = [
     },
     {
       id: 2,
-      img: "/public/img/venus.jpg",
+      img: "./public/img/venus.jpg",
       name: "VENUS",
       description:
         "Venus es el segundo planeta del sistema solar en orden de proximidad al Sol y el tercero en cuanto a tamaño en orden ascendente después de Mercurio y Marte.",
@@ -25,7 +25,7 @@ const planets = [
     },
     {
       id: 3,
-      img: "/public/img/earth.png",
+      img: "./public/img/earth.png",
       name: "EARTH",
       description:
         "La Tierra (del latín Terra,17​ deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad) es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos.",
@@ -37,7 +37,7 @@ const planets = [
     },
     {
       id: 4,
-      img: "/public/img/marte.jpg",
+      img: "./public/img/marte.jpg",
       name: "MARTE",
       description:
         "Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. Recibió su nombre en homenaje al dios de la guerra de la mitología romana (Ares en la mitología griega), y también es conocido como «el planeta rojo»3​4​ debido a la apariencia rojiza5​ que le confiere el óxido de hierro predominante en su superficie",
@@ -49,7 +49,7 @@ const planets = [
     },
     {
       id: 5,
-      img: "/public/img/jupiter.png",
+      img: "../public/img/jupiter.png",
       name: "JUPITER",
       description:
         "Júpiter es el planeta con mayor masa del sistema solar: equivale a unas 2,48 veces la suma de las masas de todos los demás planetas juntos. A pesar de ello, no es el planeta más masivo que se conoce: más de un centenar de planetas extrasolares que han sido descubiertos tienen masas similares o superiores a la de Júpiter.",
@@ -61,7 +61,7 @@ const planets = [
     },
     {
       id: 6,
-      img: "/public/img/saturn.jpg",
+      img: "./public/img/saturn.jpg",
       name: "SATURNO",
       description:
         "Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno. Forma parte de los denominados planetas exteriores o gaseosos. ",
@@ -73,7 +73,7 @@ const planets = [
     },
     {
       id: 7,
-      img: "/public/img/uranu.jpg",
+      img: "./public/img/uranu.jpg",
       name: "URANUS",
       description:
         "Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo. Se llama así en honor de la divinidad griega del cielo Urano (del griego antiguo Οὐρανός), el padre de Crono (Saturno) y el abuelo de Zeus (Júpiter).",
@@ -85,7 +85,7 @@ const planets = [
     },
     {
       id: 8,
-      img: "/public/img/neptuno.jpg",
+      img: "./public/img/neptuno.jpg",
       name: "NEPTUNO",
       description:
         "Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma parte de los denominados planetas exteriores, y dentro de estos, es uno de los gigantes helados, y es el primero que fue descubierto gracias a predicciones matemáticas. Su nombre fue puesto en honor al dios romano del mar —Neptuno—, y es el cuarto planeta en diámetro y el tercero más grande en masa.",
@@ -97,7 +97,7 @@ const planets = [
     },
     {
       id: 9,
-      img: "/public/img/pluto.jpg",
+      img: "./public/img/pluto.jpg",
       name: "PLUTON",
       description:
         "Plutón, designado (134340) Pluto, es un planeta enano del sistema solar situado a continuación de la órbita de Neptuno. Su nombre se debe al dios mitológico romano Plutón (Hades según la mitología griega). En la Asamblea General de la Unión Astronómica Internacional celebrada en Praga el 24 de agosto de 2006 se creó una nueva categoría llamada planeta enano, en la que se incluye a Plutón.",
