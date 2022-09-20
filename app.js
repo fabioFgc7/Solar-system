@@ -25,7 +25,7 @@ const planets = [
     },
     {
       id: 3,
-      img: "/public/img/earth.jpg",
+      img: "/public/img/earth.png",
       name: "EARTH",
       description:
         "La Tierra (del latín Terra,17​ deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad) es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos.",
@@ -49,7 +49,7 @@ const planets = [
     },
     {
       id: 5,
-      img: "/public/img/jupiter.jpg",
+      img: "/public/img/jupiter.png",
       name: "JUPITER",
       description:
         "Júpiter es el planeta con mayor masa del sistema solar: equivale a unas 2,48 veces la suma de las masas de todos los demás planetas juntos. A pesar de ello, no es el planeta más masivo que se conoce: más de un centenar de planetas extrasolares que han sido descubiertos tienen masas similares o superiores a la de Júpiter.",
