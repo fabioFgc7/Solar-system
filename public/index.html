@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar system planets</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+        integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="./img/planets.png" type="image/x-icon">
+
+</head>
+
+<body class="max-w-full box-border bg-slate-400  ">
+
+    <div class="w-full"> 
+        
+        <nav class="md:w-full md:h-20 md:flex h-0  md:items-center md:bg-zinc-700  w-0  text-center">
+             <!--Icon  -->
+             <img class=" md:w-12 md:mt-3 md:ml-3 absolute z-30 left-auto w-10 mt-1 mr-3 md:left-0 right-0 top-0  bottom-0" src="/public/img/icons8-planet-98.png" alt="Icon">
+            <button
+                class="btn-panel hamburger--spin-r  md:hidden bottom-auto top-0 right-auto left-0 z-50 ml-3 mt-3 fixed "
+                type="button">
+                <span class="hamburger-box">
+                    <span class=" hamburger-inner"></span>
+                </span>
+            </button>
+            <button
+                class="btn-panels hidden md:hidden  hamburger--spin-r   is-active bottom-auto top-0 right-auto left-0 z-50 ml-5z-50 ml-3 mt-3 fixed "
+                type="button">
+                <span class=" hamburger-box">
+                    <span class=" hamburger-inner "></span>
+                </span>
+            </button>
+
+            <ul class="menu text-white fixed  grid grid-cols-1  text-justify bottom-0 top-0 right-0 z-20  -translate-x-full translate-y-0 duration-500 ease-linear h-screen bg-slate-900   w-full  md:flex md:-translate-x-0 md:justify-center md:sticky md:w-full md:items-center md:h-20 md:space-x-2 md:text-sm
+        
+        ">
+                <li id="mercury"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">MERCURY</a>
+                </li>
+                <li id="venus"
+                    class="  flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">VENUS</a>
+                </li>
+                <li id="tierra"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">EARHT</a>
+                </li>
+
+                <li id="marte"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">MARS</a>
+                </li>
+                <li id="jupiter"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">JUPITER</a>
+                </li>
+                <li id="saturno"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">SATURN</a>
+                </li>
+                <li id="urano"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class=" p-1 rounded-sm" href="#">URANUS</a>
+                </li>
+                <li id="neptuno"
+                    class="  flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class="p-1 rounded-sm" href="#">NEPTUNE</a>
+                </li>
+                <li id="pluton"
+                    class=" flex items-center justify-center  hover:bg-blue-700 p-1 rounded-md cursor-pointer">
+                    <a class="p-1 rounded-sm" href="#">PLUTO</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main
+            class=" grid place-content-center bg-gradient-to-t from-gray-400 via-zinc-400 to-blue-900  md:h-auto">
+            <div class="flex place-content-center flex-wrap max-w-3xl border-black   ">
+                <picture class="">
+                    <img id="img" class="w-60 select-none animate-spin-slow   rounded-full
+                    md:w-60 md:animate-spin-slow   md:rounded-full md:mt-auto
+                    " src="" alt="Planets">
+                </picture>
+
+                <article
+                    class="grid place-content-center place-items-center md:place-content-center md:place-items-start mt-5 text-justify w-full ">
+                    <h2 id="nombre" class="font-bold mb-2 border-b-2 border-black"></h2>
+                    <p id="description" class="main w-80 h-auto leading-5 font-semibold ">
+                    </p>
+
+                    <h4 class="font-semibold space-x-2">Source <a id="link" class="text-blue-900 font-normal" href=""
+                            target="_blank">Wikipedia <i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a></h4>
+                </article>
+
+            </div>
+            <div
+                class="grid  w-full  md:grid-cols-4  items-center  mt-10  md:space-x-2 mb-10 text-cyan-900 md:text-black ">
+                <section class="border-2 pt-1 border-teal-800 md:w-40 w-full grid grid-cols-2  place-content-center md:text-justify  md:grid md:grid-cols-1 pl-2 rounded-md mb-5">
+                    <p class="text-sm font-serif ">ROTATION TIME</p>
+                    <h3 class="font-bold text-right md:text-justify mr-2 " id="rotation"></h3>
+                </section>
+                <section class="border-2 pt-1 border-teal-800 md:w-40 w-full grid grid-cols-2  place-content-center md:text-justify  md:grid md:grid-cols-1 pl-2 rounded-md mb-5">
+                    <p class="text-sm font-serif">REVOLUTION TIME</p>
+                    <h3 id="revolution" class="font-bold text-right md:text-justify mr-2"></h3>
+                </section>
+                <section class="border-2 pt-1 border-teal-800 md:w-40 w-full grid grid-cols-2  place-content-center md:text-justify  md:grid md:grid-cols-1 pl-2 rounded-md mb-5 ">
+                    <p class="text-sm font-serif">RADIUS</p>
+                    <h3 id="radius" class="font-bold text-right md:text-justify mr-2"></h3>
+                </section>
+                <section class="border-2 pt-1 border-teal-800 md:w-40 w-full grid grid-cols-2  place-content-center md:text-justify  md:grid md:grid-cols-1 pl-2 rounded-md mb-5">
+                    <p class="text-sm font-serif">AVEAGE TEMP</p>
+                    <h3 id="temp" class="font-bold text-right md:text-justify mr-2"></h3>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
