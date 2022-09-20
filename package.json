@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
     "deploy": "gh-pages -d ."
   },
   "keywords": [],
